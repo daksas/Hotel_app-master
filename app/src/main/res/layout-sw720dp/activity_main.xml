@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/placeholder"
+            android:layout_width="250dp"
+            android:layout_height="match_parent">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:choiceMode="singleChoice"
+                android:id="@+id/listView"
+                android:entries="@array/description"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/placeholder1"
+            android:layout_width="475dp"
+            android:layout_height="473dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/placeholder"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:entries="@array/Drawer_choice"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#f0e7e7"/>
+</android.support.v4.widget.DrawerLayout>

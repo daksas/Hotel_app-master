@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Hotel_app</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="Contact">Kontakty</string>
+    <string name="Rooms">Pokoje</string>
+    <string name="title_activity_rooms">Rooms</string>
+    <string name="Reservation">Rezervace</string>
+    <string name="title_activity_reservation_form">Reservation_form</string>
+    <string name="action_search">Vyhledat</string>
+    <string name="location_found">Vaše poloha</string>
+    <string name="refresh">Obnovit</string>
+    <string name="action_help">Nápověda</string>
+    <string name="home">Domů</string>
+    <string name="luxury_room">Luxusní pokoj</string>
+    <string name="basic_room">Klasický pokoj</string>
+    <string name="luxury_room_description">Na náš obrovský luxusní pokoj nikdy nezapomenete, rezervujte nyní již od 500€ za noc.</string>
+    <string name="basic_room_description">Vyzkoušejte náš klasický pokoj, rezervujze nyní za lidovou cenu 150€ za noc.</string>
+    <string-array name="Drawer_choice">
+        <item>Kontakty</item>
+        <item>Pokoje</item>
+        <item>Rezervace</item>
+    </string-array>
+    <string name="title_activity_luxury_room">Luxury_room</string>
+    <string name="title_activity_basic_room">Basic_room</string>
+
+    //FORMULÁŘ STRINGY
+    <string name="hotel_name">Registrační formulář hotelu Savoy</string>
+    <string name="name">Jméno a příjmení</string>
+    <string name="adress">Adresa</string>
+    <string name="phone_number">Telefon</string>
+    <string name="email">Email</string>
+    <string name="pick_date">Vyberte datum příjezdu:</string>
+    <string name="accept">Odeslat rezervaci</string>
+    <string name="cancel">Storno</string>
+    <string name="breakfast">Snídaně</string>
+    <string name="dinner">Večeře</string>
+    <string name="single_bed">Jednolůžko</string>
+    <string name="double_bed">Dvojlůžko</string>
+    <string name="triple_bed">Trojlůžko</string>
+    <string name="smoker">Kuřák</string>
+    <string name="nonsmoker">Nekuřák</string>
+    <string name="days">Vyberte počet dní pobytu:</string>
+    <string name="choose">Vyberte dodatečné parametry:</string>
+    <string name="invalid_email">Neplatná emailová adresa</string>
+    <string-array name="Pocet_dni_pobytu">
+        <item>1 den</item>
+        <item>2 dny</item>
+        <item>3 dny</item>
+        <item>4 dny</item>
+        <item>5 dní</item>
+        <item>6 dní</item>
+        <item>7 dní</item>
+    </string-array>
+
+</resources>
